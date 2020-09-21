@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 
-public class Test {
+public class FileProject {
     public static void main(String[] args) throws IOException {
         //需求: 将 D:\abc\1.txt 封装成File对象.
         //方式一: 根据字符串形式的路径获取File对象.

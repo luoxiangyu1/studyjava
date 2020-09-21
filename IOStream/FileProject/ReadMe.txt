@@ -14,4 +14,16 @@ File类:
         判断功能:
             isDirectory()：判断File对象是否为目录
             isFile()：判断File对象是否为文件
-            exists()：判断File对象是否存在
+            exists()：判断File对象是否存
+File类的获取功能:
+        getAbsolutePath()：获取绝对路径
+        getPath()：        获取文件的相对路径
+        getName()：        获取文件名
+        list()：           获取指定目录下所有文件（夹）名称数组
+        listFiles()：      获取指定目录下所有文件（夹）File数组
+
+ Java中路径的划分:
+            绝对路径:
+                以盘符开头的路径, 固定的, 写"死"的路径.
+            相对路径:
+                意思是相对于某个路径而言, Java中的相对路径是指: 相对于当前项目的路径来讲的.
